@@ -72,7 +72,7 @@ print(type(s))
 
 # Podemos iterar em um set normalmente
 for valor in s:
-    print(valor
+    print(valor)
 
 # Usos interessantes com sets
 
