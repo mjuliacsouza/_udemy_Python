@@ -9,6 +9,6 @@ etc utilizando Double Under para não gerar conflito com os nomes desses element
 na programação.
 """
 
-from modulo_dunder import soma
+from secao_12.modulo_dunder import soma
 
 print(soma(1, 1))
