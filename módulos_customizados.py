@@ -13,6 +13,6 @@ print(soma_impares([1, 2, 3, 4, 5, 6, 7, 8, 9]))
 
 # Importando tudo
 
-import funcoes_com_parametro as fcp
+from secao_8 import funcoes_com_parametro as fcp
 
 print(fcp.soma_impares([1, 2, 3, 4, 5, 6, 7, 8, 9]))
