@@ -20,7 +20,20 @@ mode: 'r' -> Modo de leitura (read)
 
 # Exemplo
 
-arquivo = open('texto.txt')
+arquivo = open('texto.txt', encoding="utf-8")
 
-print(arquivo)
-print(type(arquivo))
+# print(arquivo)
+# print(type(arquivo))
+
+# Para ler o conteúdo de um arquivo após sua abertura,
+# devemos utilizar a função read()
+
+print(arquivo.read())
+
+# OBS: O Python utiliza um recurso para trabalhar com arquivos
+# chamado cursor. Esse cursos funciona como o cursos quando
+# estamos escrevendo.
+
+print(arquivo.read())  # ele não vai imprimir nada
+
+# OBS: a função read() lê todo o conteúdo do arquivo
