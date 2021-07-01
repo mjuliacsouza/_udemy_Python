@@ -1,3 +1,3 @@
 Meu nome é Maria Júlia, tenho 23 anos e estou estudando Python no curso da Udemy.
-
-Oi
+Este curso está me ajudando a ficar expert em Python.
+Agora, estou aprendendo sobre arquivos.
