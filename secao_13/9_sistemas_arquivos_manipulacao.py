@@ -29,7 +29,11 @@ os.rename('teste2', 'teste02')
 
 # Removendo diretórios vazios
 os.rmdir('teste02')
+
+# Removendo uma árvore de diretórios
+for arquivo in os.scandir('geek'):
+    if arquivo.is_file():
+        os.remove(arquivo.path)
+
+# Ao remover eles não vao pra lixeira, eles são removidos.
 """
-
-import os
-
