@@ -45,3 +45,7 @@ else:
 
 # Estrutura IS
 print(ativo is True)
+
+var = None
+if not var:
+    print('oi')
