@@ -34,6 +34,10 @@ class Conta:
         elif self.__saldo < valor:
             print('Saldo insuficiente')
 
+    def transferir(self, valor, conta_destino):
+        self.__saldo -= valor
+        conta_destino.__saldo += valor
+
 
 conta1 = Conta('Julia', 1600, 20000)
 
@@ -44,3 +48,10 @@ conta1.sacar(200)
 conta1.estrato()
 conta1.sacar(2200)
 conta1.estrato()
+
+conta2 = Conta('Nicolas', 0, 500)
+
+conta1.transferir(500, conta2)
+
+conta1.estrato()
+conta2.estrato()
