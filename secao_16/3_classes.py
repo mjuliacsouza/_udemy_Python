@@ -27,3 +27,6 @@ print(type(lamp))
 # os inteiros também são uma classe (interna do Python)
 numero = int('42')
 print(type(numero))
+
+# classes internas do Python foram criadas em minúsculo
+# Objetos mapeados pela classe são entidades
