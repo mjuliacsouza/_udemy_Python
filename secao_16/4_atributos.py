@@ -125,6 +125,8 @@ print(Produto.contador)  # terá o valor da última instância implementada, 2
 # Atributos de instância que pode ser criado em tempo de execução
 # Será exclusivo da instância que o criou
 
+
+# Criando atributos
 p3 = Produto('Arroz', 'Comida', 5.5)
 p3.peso = '5 kg'
 
@@ -132,3 +134,12 @@ p4 = Produto('Feijão', 'Comida', 8)
 
 print(p3.peso)
 # print(p4.peso) # Atribute Error
+
+# Deletando atributos
+
+# Estruturas dos objetos
+print(p3.__dict__)
+print(p4.__dict__)
+
+del p3.peso
+print(p3.__dict__)  # perdeu-se o peso
