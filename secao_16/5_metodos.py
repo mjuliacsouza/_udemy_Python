@@ -48,7 +48,7 @@ class Produto:
 
     def desconto(self, porcentagem):
         """Retorna o valor do produto com o desconto"""
-        return(f'O valor com desconto é R$ {self.__valor * (100 - porcentagem) / 100}.')
+        return f'O valor com desconto é R$ {self.__valor * (100 - porcentagem) / 100}.'
 
 
 class Usuario:
@@ -65,5 +65,82 @@ class Usuario:
 melissa = Usuario('Melissa', 'melissinha@gamil.com', 'monsterhigh123')
 melissa.__correr__(34)
 
-ps4 = Produto ("Playstation 4", 'Video-game', 2300)
+ps4 = Produto("Playstation 4", 'Video-game', 2300)
 print(ps4.desconto(20))
+
+# Métodos de classe
+
+
+class Nome:
+    contador = 0
+
+    @classmethod
+    def conta_nomes(cls):
+        print(f'Temos {cls.contador} usuários no sistemas')
+
+    def __init__(self, nome):
+        self.__id = Nome.contador + 1
+        self.__nome = nome
+        Nome.contador = self.__id
+
+
+Julia = Nome('Julia')
+Nicolas = Nome('Nicolas')
+Clarissa = Nome('Clarissa')
+
+Nome.conta_nomes()  # correto
+
+Clarissa.conta_nomes()  # errado
+Julia.conta_nomes()  # errado
+
+# Todos devolvem 3 usuários.
+
+# Todos os métodos apresentador eram públicos, mas também existem métodos privados
+
+
+class NomeSecreto:
+    contador = 0
+
+    @classmethod
+    def conta_nomes(cls):
+        print(f'Temos {cls.contador} usuários no sistemas')
+
+    def __init__(self, nome, email):
+        self.__id = Nome.contador + 1
+        self.__nome = nome
+        self.__email = email
+        Nome.contador = self.__id
+        print(f'Usuário criado: {self.__gera_usuario()}')
+
+    def __gera_usuario(self):
+        return self.__email.split('@')[0]
+
+
+noah = NomeSecreto('Noah', 'noah_1998@gmail.com')
+# print(noah.__gera_usuario)  # erro, mas pode ser acessado como o Name Bangling
+
+# Método Estático
+
+
+class Nome2:
+    contador = 0
+
+    @staticmethod
+    def definicao():
+        return 'UXKAUDJ88'
+
+    def __init__(self, nome, email):
+        self.__id = Nome.contador + 1
+        self.__nome = nome
+        self.__email = email
+        Nome.contador = self.__id
+        print(f'Usuário criado: {self.__gera_usuario()}')
+
+    def __gera_usuario(self):
+        return self.__email.split('@')[0]
+
+
+print(Nome2.definicao())
+
+nick = Nome2('Nick', 'nickki@gmail.com')
+print(nick.definicao())
