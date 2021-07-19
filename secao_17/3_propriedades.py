@@ -26,9 +26,27 @@ class Conta:
         self.__saldo -= valor
         destino.__saldo += valor
 
+    def get_numero(self):
+        return self.__numero
+
+    def get_titular(self):
+        return self.__titular
+
+    def get_saldo(self):
+        return self.__saldo
+
+    def get_limite(self):
+        return self.__limite
+
 
 conta1 = Conta('Nicolas', 2000, 10000)
 conta2 = Conta('Julia', 5000, 50000)
 
 print(conta1.extrato())
 print(conta2.extrato())
+
+# soma = conta1._Conta__saldo + conta2._Conta__saldo  # não é correto
+# print(soma)
+
+soma2 = conta1.get_saldo() + conta2.get_saldo()  # forma correta
+print(soma2)
