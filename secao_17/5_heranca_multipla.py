@@ -98,4 +98,5 @@ print(tux.cumprimentar())  # ??? Method resolution Order - MRO
 print(f'Tux é instância de Pinguim? {isinstance(tux, Pinguim)}')
 print(f'Tux é instância de Terrestre? {isinstance(tux, Terrestre)}')
 print(f'Tux é instância de Aquatico? {isinstance(tux, Aquatico)}')
+print(f'Tux é instância de Animal? {isinstance(tux, Animal)}')
 print(f'Tux é instância de object? {isinstance(tux, object)}')
