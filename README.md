@@ -19,3 +19,10 @@ Seções:
   <li><b>Seção 13</b> Leitura e Escrita de Arquivos</li>
   <li><b>Seção 14</b> Iteradores e Geradores</li>
   <li><b>Seção 15</b> Decoradores</li>
+  <li><b>Seção 16</b> Orientação a Objetos com Python</li>
+  <li><b>Seção 17</b> Herança e Polimorfismo</li>
+  <li><b>Seção 18</b> Manipulando Arquivos CSV e JSON</li>
+  <li><b>Seção 19</b> Trabalhando com Data e Hora em Python</li>
+  <li><b>Seção 20</b> Testes com Python</li>
+    
+  
