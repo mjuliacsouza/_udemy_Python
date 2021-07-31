@@ -87,7 +87,7 @@ import timeit
 tempo = timeit.timeit('"-".join(str(n) for n in range(100))', number=10000)
 print(tempo)  # 0.2858718
 
-#List comprehension
+# List comprehension
 tempo = timeit.timeit('"-".join([str(n) for n in range(100)])', number=10000)
 print(tempo)  # 0.22382919999999995
 
