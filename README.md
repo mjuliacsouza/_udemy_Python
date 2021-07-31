@@ -12,7 +12,7 @@ Seções:
   <li><b>Seção 6</b> Estruturas de repetição</li>
   <li><b>Seção 7</b> Coleções</li>
   <li><b>Seção 8</b> Funções</li>
-  <li><b>Seção 9</b>< Comprehensions/li>
+  <li><b>Seção 9</b> Comprehensions/li>
   <li><b>Seção 10</b> Expressões Lambdas e Funções integradas</li>
   <li><b>Seção 11</b> Debugando e tratando erros</li>
   <li><b>Seção 12</b> Módulos</li>
