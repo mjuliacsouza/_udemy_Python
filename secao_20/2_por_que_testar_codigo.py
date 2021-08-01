@@ -1,5 +1,23 @@
 """
 Por que testar o código?
+
+    - Reduzir bugs
+    - Testes garantem que novos recursos da aplicação não quebrem
+recursos antigos
+    - Garantem que bugs corrigidos anteriormente continuem corrigidos
+    - Garantem que a refatoração não traga novos bugs
+
+TDD - Test Driven Development
+
+Com TDD é utilizado estágios de desenvolvimento:
+    - Escreve os testes
+    - Deseolvimento mínimo para executar teste com sucesso
+    - Refatoração para realizar a funcionalidade
+    - Teste passando de novo o recurso está completo
+Chamados de:
+    - Red
+    - Green
+    - Refactor
 """
 
 
