@@ -9,4 +9,6 @@ Para criar testes, criamos classes que herdam de unittest. TestCase é
 a partir de entao ganhamos todos os 'assertions' presentes no módulo.
 
 TestCase -> casos de teste para sua aplicação
+
+Arquivos atividades.py e testes.py tem o uso do módulo Unittest.
 """

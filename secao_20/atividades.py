@@ -12,3 +12,11 @@ def dormir(num_horas):
         return 'Putz, dormi muito!'
     else:
         return f'Continua consado após dormir por {num_horas} horas'
+
+
+def eh_engracado(pessoa):
+    lista = ['Charles Chaplin']
+    if pessoa in lista:
+        return True
+    else:
+        return False
