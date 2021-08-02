@@ -15,7 +15,7 @@ def dormir(num_horas):
 
 
 def eh_engracado(pessoa):
-    lista = ['Charles Chaplin']
+    lista = ['Charles Chaplin', 'Jim Carrey']
     if pessoa in lista:
         return True
     else:

@@ -35,7 +35,8 @@ class AtividadesTestes(unittest.TestCase):
 
     def test_eh_engracado(self):
         self.assertEqual(eh_engracado('Sergio Malandro'), False)
-        # self.assertFalse(eh_engracado('Sergio Malandro'))  # não utilizar se a função não está implementada,pois retornará None que pe False
+        # self.assertFalse(eh_engracado('Sergio Malandro'))
+        # não utilizar se a função não está implementada,pois retornará None que pe False
 
 
 if __name__ == '__main__':
