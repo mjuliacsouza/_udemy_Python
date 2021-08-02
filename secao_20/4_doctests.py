@@ -49,6 +49,19 @@ def fala_oi():
     """fala oi
 
     >>> fala_oi()
-    'oi'  # colocar aspas simples aqui dentro
+    'oi'
     """
     return 'oi'
+
+# colocar aspas simples dentro das aspas duplas
+
+# Último exemplo
+
+
+def verdade():
+    """Retorna verdade
+
+    >>> verdade()
+    True
+    """
+    return True
