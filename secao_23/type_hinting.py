@@ -8,3 +8,5 @@ def cabecalho(texto: str, alinhamento: bool = True) -> str:
 print(cabecalho('geek university'))
 
 print(cabecalho('geek university', alinhamento=False))
+
+# print(cabecalho('geek university', alinhamento=1))  # usa como True, não dá erro
