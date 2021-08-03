@@ -11,6 +11,8 @@ print(cabecalho('geek university', alinhamento=False))
 
 # print(cabecalho('geek university', alinhamento=12))
 
+print(cabecalho.__annotations__)
+
 """
 Instalar mypy:
 
