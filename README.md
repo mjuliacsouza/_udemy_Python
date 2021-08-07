@@ -24,5 +24,7 @@ Seções:
   <li><b>Seção 18</b> Manipulando Arquivos CSV e JSON</li>
   <li><b>Seção 19</b> Trabalhando com Data e Hora em Python</li>
   <li><b>Seção 20</b> Testes com Python</li>
+ <ul> 
+   <b> EXTRAS </b>
     
   
