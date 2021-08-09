@@ -3,7 +3,7 @@ Curso de Python - Básico ao Avançado
 </h1>
 
 <h2> Udemy - Geek University </h2>
-
+<p>
 Anotações da aula referentes ao tópicos estudados no curso Programação em Python: Essencial.
 
 Seções:
@@ -24,5 +24,12 @@ Seções:
   <li><b>Seção 18</b> Manipulando Arquivos CSV e JSON</li>
   <li><b>Seção 19</b> Trabalhando com Data e Hora em Python</li>
   <li><b>Seção 20</b> Testes com Python</li>
+  <li>  <b>EXTRAS</b> 
+    <ul>
+      <li> Operador Walrus</li>
+  </li>
+ <ul> 
+ 
+
     
   
