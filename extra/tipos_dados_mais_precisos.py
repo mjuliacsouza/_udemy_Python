@@ -40,3 +40,17 @@ def calcula_v1(operacao: str, num1: int, num2: int) -> None:
 calcula_v1('+', 6, 4)  # 10
 calcula_v1('-', 6, 4)  # 2
 calcula_v1('*', 6, 4)  # ValueError
+
+
+def calcula_v2(operacao: Literal['+', '-'], num1: int, num2: int) -> None:
+    if operacao == '+':
+        print(f'{num1} + {num2} = {num1 + num2}')
+    elif operacao == '-':
+        print(f'{num1} - {num2} = {num1 - num2}')
+    else:
+        raise ValueError(f'Operação inválida {operacao!r}')
+
+
+calcula_v2('+', 6, 4)  # 10
+calcula_v2('-', 6, 4)  # 2
+calcula_v2('*', 6, 4)  # ValueError
