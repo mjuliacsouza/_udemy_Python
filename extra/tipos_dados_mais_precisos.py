@@ -120,4 +120,21 @@ print(outro)
 
 # Protocols
 
+from typing import Protocol
 
+
+class Curso(Protocol):
+    titulo: str \
+
+
+def estudar(valor: Curso) -> None:
+    print(f'Estou estudando o curso {valor.titulo}')
+
+
+class Venda:
+    titulo = 'Oi'
+
+
+v1 = Venda()
+
+estudar(v1)
