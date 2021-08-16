@@ -26,7 +26,7 @@ def pegar_status(usuario: str) -> Literal['conectado', 'desconectado']:
 
 
 # a saída deve ser obrigatoriamente 'conectado' ou 'desconectado'
-"""
+
 
 def calcula_v1(operacao: str, num1: int, num2: int) -> None:
     if operacao == '+':
@@ -54,3 +54,16 @@ def calcula_v2(operacao: Literal['+', '-'], num1: int, num2: int) -> None:
 calcula_v2('+', 6, 4)  # 10
 calcula_v2('-', 6, 4)  # 2
 calcula_v2('*', 6, 4)  # ValueError
+"""
+
+from typing import Union
+
+
+def soma(num1: int, num2: int) -> Union[str, int]:
+    resultado: int = num1 + num2
+
+    if resultado > 50:
+        return f'O valor {resultado} é muito grande...'
+    else:
+        return resultado
+
