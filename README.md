@@ -29,6 +29,9 @@ Seções:
   <li>  <b>EXTRAS</b> 
     <ul>
       <li> Operador Walrus</li>
+      <li> Argumentos somente posicionais </li>
+      <li> f-strings</li>
+      <li> Tipos de dados mais precisos</li>
   </li>
  <ul> 
  
